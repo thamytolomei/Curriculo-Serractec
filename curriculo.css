@@ -250,6 +250,33 @@ strong{
 .gif1 img{
     width:20%;
 }
+.up-container{
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+}
+
+.up{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.up-container i{
+    color:rgb(255, 251, 251);
+    text-shadow: 0 0 10px #FFFFFF;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    cursor:pointer
+}
+
+.up-container p{
+    font-size: 17px;
+    margin: 5px;
+    color: greenyellow;
+    font-family: var(--font-secundary);
+}
 
 .contato{
     height: 20vh;
