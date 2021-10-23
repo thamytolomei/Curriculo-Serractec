@@ -414,6 +414,12 @@ strong{
     justify-content:center;
 }
 
+@media screen and (max-width: 500px){
+    .gif1 a{
+      display: none;
+    }
+}
+
 .gif1 img{
     width:20%;
 }
